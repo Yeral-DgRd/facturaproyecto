@@ -30,10 +30,13 @@ def ejecutar_auditoria():
         archivo.write(f"Total Liquidado        : S/ {factura_control['total_pagar']:.2f}\n")
         archivo.write("=====================================================\n")
 
+
     print(f"Auditoria finalizada con exito. Archivo generado: {nombre_archivo}")
     sys.exit(0)
 
 
+
 if __name__ == "__main__":
     ejecutar_auditoria()
+
     
